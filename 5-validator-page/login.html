@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Validator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <label for="password">Contraseña:</label>
+  <input type="password" id="password" onkeyup="validatePassword()">
+  <ul>
+    <li id="length">Debe tener al menos 16 caracteres</li>
+    <li id="letters">Debe tener letras minúsculas y mayúsculas</li>
+    <li id="repeatLetters">No puede tener 2 letras iguales consecutivas</li>
+    <li id="numbers">Debe contener al menos 4 números</li>
+    <li id="repeatNumbers">No puede tener 2 números iguales consecutivos</li>
+    <li id="specialChars">Debe tener al menos 2 caracteres especiales</li>
+    <li id="zero">No se puede usar el número 0</li>
+    <li id="spaces">No se puede colocar espacios</li>
+  </ul>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  margin: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.condition {
+  color: red;
+}
+
+.valid {
+  color: green;
+}
+
+
+/* Estilos para el color rojo */
+.error {display: block;
+  color: red;
+}

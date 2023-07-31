@@ -1,0 +1,46 @@
+    /* Estilos generales... */
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #f25a38;
+  }
+  
+  label, input {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  #imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Ajustamos el contenedor para que las imágenes se envuelvan en una fila */
+  }
+  
+  .img-square, .img-rectangle {
+    margin: 5px;
+    display: inline-block;
+    flex: 1 0 100px; /* propiedad flex para que las imágenes se muestren con igual tamaño */
+  }
+  
+  .img-square {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .img-rectangle {
+    width: 200px;
+    height: 100px;
+  }
+  
+  /* Función para generar un color aleatorio en formato hexadecimal */
+  :root {
+    --color1: #${randomColor()};
+    --color2: #${randomColor()};
+  }
+  
